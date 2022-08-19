@@ -1,4 +1,4 @@
-import {CustomError} from "./error.interface";
+import {CustomError} from "./CustomError";
 
 
 export class TRANSFER_REJECTED_ERROR extends CustomError {

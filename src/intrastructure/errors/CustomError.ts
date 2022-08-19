@@ -1,8 +1,4 @@
-export interface ErrorInterface {
-    getMessage(): string;
-    getStack(): string | undefined;
-    getName(): string;
-}
+import {ErrorInterface} from "../interfaces/error.interface";
 
 export class CustomError extends Error implements ErrorInterface {
     protected errorName: string;

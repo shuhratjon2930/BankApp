@@ -1,4 +1,4 @@
-import {CustomError} from "./error.interface";
+import {CustomError} from "./CustomError";
 
 export class INVALID_ACCOUNT_ERROR extends CustomError {
     constructor(message?: string) {
